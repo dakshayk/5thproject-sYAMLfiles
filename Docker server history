@@ -1,0 +1,168 @@
+[root@Docker-server ~]# history
+    1  vi /etc/hostname
+    2  init 6
+    3  yum install docker -y
+    4  service docker status
+    5  service docker start'
+    6  service docker start
+    7  chkconfig docker on
+    8  service docker status
+    9  vi Dockerfile
+   10  docker build -t updatedtomcatimage .
+   11  ls
+   12  docker pull tomcat
+   13  docker images
+   14  docker run -dt --name issuecontainer -p 8081:8080 tomcat
+   15  docker images
+   16  docker ps
+   17  docker images
+   18  docker ps
+   19  cat Dockerfile
+   20  docker exec -it issuecontainer -- /bin/bash
+   21  cd /opt/docker
+   22  ls
+   23  docker images
+   24  docker ps -a
+   25  docker build -t tomcat:v1 .
+   26  docker images
+   27  docker run -dt --name tomcatv1 -p 8081:8080 tomcat:v1
+   28  docker images
+   29  docker ps
+   30  docker exec -it tomcatv1 -- /bin/bash
+   31  docker exec -it tomcatv1 /bin/bash
+   32  docker images
+   33  docker psa
+   34  docker ps -a
+   35  docker stop tomcatv1
+   36  docker ps -a
+   37  docker rm 5d5a6f84dd7d
+   38  docker ps -a
+   39  docker images
+   40  service docker status
+   41  docker images
+   42  docker ps
+   43  docker exec -it issuecontainer /bin/bash
+   44  cat Dockerfile
+   45  docker exec -it issuecontainer /bin/bash
+   46  ls
+   47  docker build -t demotomcat .
+   48  docker images
+   49  docker ps
+   50  docker stop issuecontainer
+   51  docker rm issuecontainer
+   52  docker rmi demotomcat tomcat
+   53  docker images
+   54  docker ps -a
+   55  ls
+   56  docker build -t demoimage .
+   57  docker images
+   58  docker run -dt -name workingcont -p 8081
+   59  docker run -dt -name workingcont -p 8081:8080 demoimage
+   60  docker run -dt --name workingcont -p 8081:8080 demoimage
+   61  docker ps
+   62  docker stop workingcont
+   63  docker rm workingcont
+   64  docker images
+   65  docker rmi demoimage
+   66  docker images
+   67  docker ps
+   68  docker ps -a
+   69  useradd dockeradmin
+   70  cat /etc/users
+   71  cat /etc/user
+   72  tail -4 /etc/group
+   73  tail -4 /etc/user
+   74  tail -4 /etc/users
+   75  usermod -a docker dockeradmin
+   76  usermod -aG docker dockeradmin
+   77  passwd dockeradmin
+   78  vi /etc/ssh/sshd_config
+   79  service sshd reload
+   80  ls
+   81  cat Dockerfile
+   82  ls
+   83  mkdir /opt/docker
+   84  cd /opt
+   85  ls
+   86  cd docker/
+   87  ls
+   88  pwd
+   89  chown -R dockeradmin:dockeradmin docker
+   90  pwd
+   91  chown -R dockeradmin:dockeradmin /opt/docker
+   92  ls
+   93  cd ..
+   94  ls
+   95  ls -l
+   96  pwd
+   97  cd docker/
+   98  ls
+   99  pwd
+  100  cd
+  101  ls
+  102  mv Dockerfile /opt/docker
+  103  ls
+  104  ls /opt/docker
+  105  cd /opt/docker
+  106  ls
+  107  vi Dockerfile
+  108  cat Dockerfile
+  109  ls
+  110  cd /opt/docker
+  111  ls -l
+  112  ls
+  113  docker build -t tomcat:v1 .
+  114  docker run -dt --name tomcatv1 -p 8081:8080 tomcat:v1
+  115  docker images
+  116  docker ps -a
+  117  ls
+  118  ls -l
+  119  date
+  120  docker images
+  121  docker ps -a
+  122  docker stop tomcatv2
+  123  docker rm tomcatv2
+  124  docker rmi tomcat:v2
+  125  docker images
+  126  docker ps -a
+  127  ls
+  128  ls -l
+  129  date
+  130  docker images
+  131  docker ps -a
+  132  docker stop tomcatv2
+  133  docker rm tomcatv2
+  134  docker rmi tomcat:v2
+  135  docker images
+  136  docker ps -a
+  137  docker images
+  138  docker ps -a
+  139  docker stop tomcatv2
+  140  docker rm tomcatv2
+  141  docker images
+  142  docker rmi 00c634360fb9
+  143  docker images
+  144  docker ps -a
+  145  docker images
+  146  docker ps -a
+  147  docker images
+  148  cd /opt/docker/
+  149  ls
+  150  ls -l
+  151  cd
+  152  cd /opt/docker/
+  153  cd ..
+  154  ls
+  155  ls -l
+  156  cd docker/
+  157  ls
+  158  useradd ansadmin
+  159  passwd ansadmin
+  160  vi sudo
+  161  visudo
+  162  vi /etc/ssh/sshd_config
+  163  service sshd reload
+  164  su - dockeradmin
+  165  su - ansadmin
+  166  history
+[root@Docker-server ~]#
