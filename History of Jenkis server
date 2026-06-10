@@ -1,0 +1,61 @@
+ 1  curl ipinfo.io/ip
+    2  yum update -y
+    3  yum install git -y
+    4  yum install java-21* -y
+    5  git --version
+    6  java --version
+    7  cd /opt
+    8  wget https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
+    9  ls
+   10  tar -xvzf apache-maven-3.9.16-bin.tar.gz
+   11  ls
+   12  rm -rf apache-maven-3.9.16-bin.tar.gz
+   13  ls
+   14  mv apache-maven-3.9.16 maven
+   15  ls
+   16  cd
+   17  find /usr/bin/
+   18  find /usr/lib/jvm/java-21* | head -n3
+   19  vi .bash_profile
+   20  exit
+   21  cd /var/lib/jenkins/workspace/
+   22  ls
+   23  service jenkins status
+   24  cd /var/lib/jenkins/workspace/
+   25  ls
+   26  pwd
+   27  ls
+   28  cd pull-build-deployjob/
+   29  webapp/
+   30  ls
+   31  tree
+   32  ls
+   33  wpwd
+   34  pwd
+   35  ls
+   36  cd webapp/
+   37  ls
+   38  cd target/
+   39  ls
+   40  pwd
+   41  cd /var/lib/jenkins/workspace/
+   42  ls
+   43  cd /var/lib/jenkins/workspace/
+   44  ls
+   45  cd BuildanddeployOnContainer/
+   46  ls
+   47  cd webapp/
+   48  ls
+   49  cd target/
+   50  ls
+   51  ls -l
+   52  date
+   53  cd /var/lib/jenkins/workspace/
+   54  ls
+   55  cd /var/lib/jenkins/workspace/
+   56  ls
+   57  amazon --version
+   58  aws --version
+   59  service jenkins status
+   60  ls
+   61  history
