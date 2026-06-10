@@ -1,0 +1,16 @@
+---
+- hosts: ansible
+  tasks:
+  - name: creating image from Dockerfile
+    command: docker build -t regapp:latest .
+
+    args:
+      chdir: /opt/docker
+
+
+
+  - name: creating reserve space in D HUB
+    command: docker tag regapp:latest dakshayk/regapp:latest
+
+  - name: pushing image to D HUB
+    command: docker push dakshayk/regapp:latest
