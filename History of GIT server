@@ -1,0 +1,81 @@
+[root@Git-Server ~]# history
+    1  yum install tree -y
+    2  yum install git -y
+    3  which git
+    4  git --version
+    5  git config --global user.name = "dakshay"
+    6  git config --global user.email = "akshaykumar.career@gmail.com"
+    7  git config --list
+    8  git config --global user.name="dakshay"
+    9  git config --global --unset-all user.name
+   10  git config --global --unset-all user.email
+   11  git config --global user.name "dakshay"
+   12  git config --global user.email "akshaykumar.career@gmail.com"
+   13  git config --list
+   14  git clone https://github.com/dakshayk/FormFillApp.git
+   15  ls
+   16  cd FormFillApp/
+   17  ls
+   18  tree
+   19  cd webapp/src/main/webapp
+   20  vi index.jsp
+   21  cd
+   22  ls
+   23  cd FormFillApp/
+   24  git status
+   25  git add .
+   26  git commit -m "modifed index file"
+   27  git push origin main
+   28  cd
+   29  ls
+   30  tree
+   31  cd FormFillApp/
+   32  tree
+   33  vi /webapp/src/main/webapp/index.jsp
+   34  pwd
+   35  vi /root/webapp/src/main/webapp/index.jsp
+   36  ls
+   37  pwd
+   38  tree
+   39  vi /root/FormFillApp/webapp/src/main/webapp/index.jsp
+   40  git status
+   41  git add .
+   42  git commit -m "modifed"
+   43  git push origin main
+   44  vi /root/FormFillApp/webapp/src/main/webapp/index.jsp
+   45  git add .
+   46  git commit -m "modifed"
+   47  git push origin main
+   48  vi /root/FormFillApp/webapp/src/main/webapp/index.jsp
+   49  git add .
+   50  git commit -m "modifed"
+   51  git push origin main
+   52  sudo su -
+   53  ls
+   54  tree
+   55  pwd
+   56  vi FormFillApp/webapp/src/main/webapp/index.jsp
+   57  git status
+   58  ls
+   59  cd FormFillApp/
+   60  git status
+   61  git add .
+   62  git commit -m "modifeied"
+   63  git push origin main
+   64  vi FormFillApp/webapp/src/main/webapp/index.jsp
+   65  vi /root/FormFillApp/webapp/src/main/webapp/index.jsp
+   66  git add .
+   67  git commit -m "modifeied"
+   68  git push origin main
+   69  cd FormFillApp/
+   70  ls
+   71  vi /root/FormFillApp/webapp/src/main/webapp/index.jsp
+   72  git add .
+   73  git commit -m "modifeied"
+   74  git push origin main
+   75  vi /root/FormFillApp/webapp/src/main/webapp/index.jsp
+   76  git add .
+   77  git commit -m "modifeied"
+   78  git push origin main
+   79  cd
+   80  history
