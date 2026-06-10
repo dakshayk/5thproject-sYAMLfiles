@@ -1,0 +1,142 @@
+[ansadmin@Ansible-server docker]$ history
+    1  cd /opt/docker
+    2  ls
+    3  cat create-image-regapp.yml
+    4  cd /opt/docker
+    5  ls
+    6  docker build -t regapp:v1 .
+    7  docker images
+    8  docker rmi cfb39a844542
+    9  docker images
+   10  ssh ansadmin@172.31.7.212
+   11  ssh ansadmin@172.31.7.212
+   12  ssh-keygen
+   13  ssh-copy-id ansadmin@172.31.32.89
+   14  ssh ansadmin@172.31.32.89
+   15  vi /etc/ansible/hosts
+   16  sudo vi /etc/ansible/hosts
+   17  ssh-cpoy-id ansadmin@172.31.7.212
+   18  ssh-copy-id ansadmin@172.31.7.212
+   19  ansible dockeradmin -m ping
+   20  ansible dockerhost -m ping
+   21  ansible ansible -m ping
+   22  ansible all -m ping
+   23  cd /opt
+   24  ls
+   25  mkdir docker
+   26  sudo mkdir docker
+   27  ls
+   28  sudo chown ansadmin:ansadmin docker
+   29  ls -l
+   30  cd docker/
+   31  ls
+   32  ls -l
+   33  ls
+   34  pwd
+   35  ls
+   36  ls -l
+   37  ls
+   38  vi Dockerfile
+   39  ls
+   40  sudo yum install docker -y
+   41  which dcoekr
+   42  which docker
+   43  docker --version
+   44  ansible --version
+   45  sudo service docker start
+   46  sudo chkconfig docker on
+   47  vi create-image-regapp.yml
+   48  ls
+   49  ansible-playbook create-image-regapp.yml
+   50  sudo usermod -aG docker ansadmin
+   51  tail -5 /etc/group
+   52  sudo chmod 777 /var/run/docker.sock
+   53  ls
+   54  ansible-playbook create-image-regapp.yml
+   55  cat create-image-regapp.yml
+   56  vi /etc/ansible/hosts
+   57  cat /etc/ansible/hosts
+   58  sudo ssh ansadmin@172.31.7.212
+   59  ssh-copy-id ansadmin@172.31.7.212
+   60  ansible ansible -m ping
+   61  cd /opt/docker
+   62  ls
+   63  ansible-playbook create-image-regapp.yml
+   64  docker images
+   65  docker login
+   66  docker images
+   67  docker tag regapp:latest dakshayk/regapp:latest
+   68  docker push dakshayk/regapp:latest
+   69  ls
+   70  vi create-image-regapp.yml
+   71  ansible-playbook create-image-regapp.yml
+   72  docker images
+   73  docker rmi dakshayk/regapp
+   74  docker rmi regapp:latest
+   75  docker images
+   76  ls
+   77  ls -l
+   78  docker images
+   79  ansible all -m ping
+   80  ls
+   81  vi docker_deployment.yml
+   82  ls
+   83  anisble-playbook docker_deployment.yml
+   84  ansible-playbook docker_deployment.yml
+   85  ls
+   86  vi docker_deployment.yml
+   87  ansible-playbook docker_deployment.yml
+   88  vi docker_deployment.yml
+   89  ansible-playbook docker_deployment.yml
+   90  docker images
+   91  docker rmi 6d36b8aafb47 6d36b8aafb47 4f213234a225
+   92  docker rmi 6d36b8aafb47 6d36b8aafb47 4f213234a225 -force
+   93  docker rmi 6d36b8aafb47 6d36b8aafb47 4f213234a225 -f
+   94  docker images
+   95  ls
+   96  ls -l
+   97  docker images
+   98  ls
+   99  ls -l
+  100  cd /opt/docker
+  101  ls
+  102  cd
+  103  ssh-copy-id ansadmin@172.31.3.221
+  104  ssh ansadmin@172.31.3.221
+  105  ssh-copy-id root@172.31.3.221
+  106  cd /opt/docker
+  107  vi hosts
+  108  anisble -i hosts -m ping
+  109  ansible -i hosts -m ping
+  110  ansible -i /opt/dockerhosts -m ping
+  111  ansible -i /opt/docker/hosts -m ping
+  112  ls
+  113  cat hosts
+  114  ansible -i /opt/docker/hosts -m ping
+  115  ansible -i /opt/docker/hosts all -m ping
+  116  ansible -i /opt/docker/hosts ansible -m ping
+  117  ansible -i /opt/docker/hosts kubernetes -m ping
+  118  vi kube-deploy.yml
+  119  ls
+  120  cat kube-deploy.yml
+  121  ssh-copy-id root@172.31.3.221
+  122  ssh root@172.31.3.221
+  123  ls
+  124  ansible -i hosts all -m ping
+  125  ls
+  126  cat kube-deploy.yml
+  127  ansible-playbook -i hosts kube-deploy.yml
+  128  ls
+  129  vi kube-deploy.yml
+  130  ansible-playbook -i hosts kube-deploy.yml
+  131  ls
+  132  ls -l
+  133  ls
+  134  cat Dockerfile
+  135  cat create-image-regapp.yml
+  136  cat docker_deployment.yml
+  137  ls
+  138  cat hosts
+  139  cat kube-deploy.yml
+  140  ls
+  141  history
