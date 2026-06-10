@@ -1,0 +1,64 @@
+[root@kubernetes-server ~]# history
+    1  pwd
+    2  yum install dcoker -y
+    3  yum update  -y
+    4  which docker
+    5  yum install docker -y
+    6  service docker start
+    7  chkconfig httpd on
+    8  chkconfig docker  on
+    9  chkconfig docker on
+   10  service docker status
+   11  curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.35.3/2026-04-08/bin/linux/amd64/kubectl
+   12  chmod +x ./kubectl
+   13  mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
+   14  kubectl version
+   15  ARCH=amd64
+   16  PLATFORM=$(uname -s)_$ARCH
+   17  curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
+   18  curl -sL "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_checksums.txt" | grep $PLATFORM | sha256sum --check
+   19  tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
+   20  sudo install -m 0755 /tmp/eksctl /usr/local/bin
+   21  eksctl --version
+   22  eksctl -version
+   23  eksctl --version
+   24  eksctl version
+   25  kubectl get all
+   26  eksctl create cluster --name saidemy --region ap-south-1 --node-type t2.small
+   27  kubectl get nodes
+   28  kubectl get nodes -o wide
+   29  vi regapp-deployment.yml
+   30  ls
+   31  vi regapp-service.yml
+   32  ls
+   33  kubectl apply -f regapp-deployment.yml
+   34  kubectl apply -f regapp-service.yml
+   35  kubectl get all
+   36  kubectl delete deployment.apps/saidemy-regapp
+   37  kubectl delete service/saidemy-service
+   38  kubectl get all
+   39  useradd ansadmin
+   40  passwd ansadmin
+   41  visudo
+   42  vi /etc/sshd/sshd_config
+   43  vi /etc/ssh/sshd_config
+   44  service sshd reload
+   45  ls
+   46  passwd root
+   47  vi /etc/ssh/sshd_config
+   48  service sshd reload
+   49  kubectl get all
+   50  ls
+   51  kubectl get all
+   52  ls
+   53  kubectl get all
+   54  kubectl delete deployment.apps/saidemy-regapp
+   55  kubectl delete service/saidemy-service
+   56  kubectl get all
+   57  kubectl delete deployment.apps/saidemy-regapp
+   58  kubectl delete service/saidemy-service
+   59  eksctl delete cluster saidemy --region ap-south-1
+   60  ls
+   61  cat regapp-deployment.yml
+   62  cat regapp-service.yml
+   63  history
