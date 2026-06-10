@@ -1,0 +1,14 @@
+---
+- hosts: kubernetes
+  user: root
+  tasks:
+   - name: deploying regapp on k8s servers
+     command: kubectl apply -f regapp-deployment.yml
+
+
+   - name: deploying regapp on k8s servers
+     command: kubectl apply -f regapp-service.yml
+
+
+   - name: update deployment with new pods if there is any new image in D HUB
+     command: kubectl rollout restart deployment.apps/saidemy-regapp
