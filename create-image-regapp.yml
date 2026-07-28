@@ -10,7 +10,9 @@
 
 
   - name: creating reserve space in D HUB
-    command: docker tag regapp:latest dakshayk/regapp:latest
+    command: docker tag regapp:latest dakshayk/regapp:latest     
+    # command: docker tag regapp:latest(image name in base machine)  dakshayk/regapp:latest (dockerhub username/reservespace name)
 
+    
   - name: pushing image to D HUB
-    command: docker push dakshayk/regapp:latest
+    command: docker push dakshayk/regapp:latest #(pushing image(regapp:latest) to the reserve space 
